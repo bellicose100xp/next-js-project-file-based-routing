@@ -1,3 +1,28 @@
 {
-  "extends": "next/core-web-vitals"
+    "extends": "next/core-web-vitals",
+    "rules": {
+        "indent": [
+            "error",
+            4,
+            {
+                "SwitchCase": 1
+            }
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "comma-dangle": [
+            "error",
+            "always-multiline"
+        ]
+    }
 }
