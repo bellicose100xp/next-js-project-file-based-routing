@@ -7,7 +7,7 @@ import EventLogistics from '../../components/event-detail/event-logistics';
 const EventDetailPage = () => {
 
     const router = useRouter();
-    const eventId = router.query.event_id;
+    const eventId = router.query.event_id as string;
     const event = getEventById(eventId);
 
     if (!event) {
